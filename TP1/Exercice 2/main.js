@@ -119,20 +119,3 @@ function TriNoms(){
     
 }
 
-
-/*function TriNoms(){
-    let names_tri =[]
-    names.sort(function(a, b){return a-b});
-    for(i=0; i<names.length;i++){
-        names_tri[i].push(names[i])
-    }
-    for(i=0;i<contents.length;i++){
-        contents[i] = "<td> "
-    }
-    thead3.innerHTML= "<tr> <td>Prenom</td> <td>Notes</td>  </tr>"
-    for(i=0; i<T.length;i++){
-        contents[i] = contents[i] + names_tri[i]+"</td> <td> "+ T[i]+ "</td> <td>"
-        document.getElementById(tris_noms[i]).innerHTML=contents[i]
-    }
-
-}*/
